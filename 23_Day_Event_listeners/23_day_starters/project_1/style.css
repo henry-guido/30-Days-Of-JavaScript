@@ -1,0 +1,108 @@
+*, *:after,*:before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin: .2rem
+}
+
+h1{
+    color: #5EBD7C;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+h2,h3{
+    font-weight: normal;
+}
+
+
+.wrapper{
+    max-width: 916px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.wrapperHeader{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;  
+}
+
+.inputdiv{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    width: 68%;
+}
+
+button{
+    width: 25%;
+    font-size: 1rem
+}
+
+
+.numbers-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.prime{
+    background-color: #FD5E53;
+}
+
+.even{
+    background-color: #21BF73;
+}
+
+.odd{
+    background-color: #FDDB3A;
+}
+
+.box{
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+::placeholder {
+    color: #bbb;
+    padding-left: .3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .inputdiv{
+        width: 58%;
+    }
+    button{
+        width: 35%;
+    }
+  }
+
+  @media only screen and (max-width: 424px) {
+    .inputdiv{
+        width: 50%;
+    }
+    button{
+        width: 40%;
+        font-size: .8rem;
+    }
+  }
