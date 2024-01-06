@@ -25,7 +25,7 @@ for (let i = 0; i < asabenehChallenges2020['challenges'].length; i++) {
     challengesList.innerHTML +=
         `<div class='row-list' style='background-color:${backgroundColor[challengeStatus(i)]}'>
         <p>${asabenehChallenges2020['challenges'][i]['name']}</p>
-        <details>
+        <details name='challenges'>
             <summary>${summary(i)}</summary>
             <ul>${details(i)}</ul>
         </details>
