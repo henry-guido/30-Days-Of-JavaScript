@@ -103,21 +103,3 @@
 // Develop the following application, use the following HTML elements to get started with. You will get the same code on starter folder. Apply all the styles and functionality using JavaScript only.
 
 // 1. The year color is changing every 1 second
-
-const h1 = document.querySelector('h1')
-
-const textH1 = h1.textContent.slice(0,-4)
-const numberH1 = h1.textContent.slice(-4)
-
-h1.innerHTML = `${textH1} ${numberH1}`
-
-const wrapper = document.querySelector('.wrapper')
-
-
-wrapper.style.background = 'red'
-wrapper.style.width = '50%'
-wrapper.style.margin = 'auto'
-
-console.log(wrapper)
-
-
